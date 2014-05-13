@@ -119,6 +119,11 @@ footer {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
+.menu-list a {
+	color: black;
+	text-decoration: none;
+}
+
 .menu-item:hover~.menu-list {
 	height: 130px;
 }
@@ -142,33 +147,6 @@ footer {
 .menu-list li:hover {
 	background-color: #888888;
 }
-
-/*
-
-.menu-list {
-	position: fixed;
-	top: 3em;
-	right: 0px;
-	height: 0px;
-	background-color: #333333;
-	overflow: hidden;
-	-webkit-transition: height 1.5s;
-	transition: height 1.5s;
-	font-family: Verdana, Geneva, sans-serif;
-}
-
-.menu-item:hover~.menu-list {
-	height: 200px;
-}
-
-.menu-list:hover {
-	height: 200px;
-}
-
-.menu-list li{
-	display: block;
-	padding: 5px 10px 5px;
-}*/
 
 .main-content {
 	float: left;
@@ -384,6 +362,7 @@ footer {
 	.menu-list:hover {
 		height: auto;
 	}
+
 }
 
 @media (min-width: 900px) {
@@ -405,6 +384,11 @@ footer {
 		margin-top: 15px;
 		color: white;
 		padding-right: 20px;
+	}
+
+	.menu-list a {
+	color: white;
+	text-decoration: none;
 	}
 
 	.menu-list {
